@@ -4,6 +4,8 @@
 
 ### What i used for this project:
 
+I wanted this website to be simple, easy to use and widely responsive on most of the actuals client's web browser (mostly Chrome, Firefox, IE/Edge, Safari, Opera) as well on mobile.
+
 #### Main technologies
 
 - HTML5
