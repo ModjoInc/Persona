@@ -35,7 +35,7 @@
 
 		&.inactive {
 			article {
-				opacity: 0;
+				opacity: 1;
 
 				&.from-left {
 					@include vendor('transform', 'translateX(-14em)');

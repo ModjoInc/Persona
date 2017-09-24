@@ -851,7 +851,7 @@ table {
     text-indent: -9999px;
     z-index: 2;
     opacity: 0;
-    -webkit-tap-highlight-color: rgba(255, 255, 255, 0); }
+    -webkit-tap-highlight-color: rgba(200, 200, 200, 0); }
     .poptrox-popup .closer:before {
       content: '';
       display: block;
@@ -1147,7 +1147,7 @@ table {
       -ms-transition-delay: 1.15s;
       transition-delay: 1.15s; }
   .gallery.inactive article {
-    opacity: 0; }
+    opacity: 1; }
     .gallery.inactive article.from-left {
       -moz-transform: translateX(-14em);
       -webkit-transform: translateX(-14em);
@@ -1483,9 +1483,6 @@ body {
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
-
-#work {
-  background: url("images/overlay2.png"), url("../../images/three.jpg"); }
 
 /* Contact */
 #contact {
