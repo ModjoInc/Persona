@@ -408,7 +408,6 @@ p, ul, ol, dl, table {
 
 /* Box */
 .box {
-  background: #ffffff;
   color: #39454b;
   padding: 2em; }
   .box > :last-child {
@@ -664,6 +663,11 @@ textarea {
     .image.centered img {
       margin: 0 auto;
       width: auto; }
+
+.habib {
+  width: 5vw;
+  border-radius: 50%;
+  vertical-align: middle; }
 
 /* List */
 ul.default {
@@ -1340,13 +1344,13 @@ body {
     .main.dark a {
       color: inherit; }
     .main.dark .button.style2 {
-      border-color: #ffffff; }
+      border-color: rgba(37, 37, 37, 0.5); }
       .main.dark .button.style2:hover {
         background-color: rgba(255, 255, 255, 0.125); }
       .main.dark .button.style2:active {
         background-color: rgba(255, 255, 255, 0.25); }
       .main.dark .button.style2.down {
-        background-image: url("images/dark-arrow.svg"); }
+        background-image: url("images/arrow.svg"); }
   body.is-touch .main {
     background-attachment: scroll !important; }
   @media screen and (max-width: 1920px) {
@@ -1453,7 +1457,7 @@ body {
 
 /* Intro */
 #intro {
-  background: url("images/overlay.png"), url("../../images/intro.jpg");
+  background: url("images/overlay1.png"), url("../../images/intro.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
@@ -1472,6 +1476,16 @@ body {
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
+
+/* Three */
+#three {
+  background: url("images/overlay.png"), url("../../images/three.jpg");
+  background-size: 256px 256px, cover;
+  background-attachment: fixed, fixed;
+  background-position: top left, center center; }
+
+#work {
+  background: url("images/overlay2.png"), url("../../images/three.jpg"); }
 
 /* Contact */
 #contact {

@@ -101,7 +101,7 @@
 			}
 
 			.button.style2 {
-				border-color: _palette(dark, fg);
+				border-color: rgba(37, 37, 37, 0.5);
 
 				&:hover {
 					background-color: transparentize(_palette(dark, border), 0.875);
@@ -112,7 +112,7 @@
 				}
 
 				&.down {
-					background-image: url('images/dark-arrow.svg');
+					background-image: url('images/arrow.svg');
 				}
 			}
 		}
