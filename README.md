@@ -1,6 +1,6 @@
 # Persona
 
-## Project for aplying for internship online
+## Applying for an internship with a Persona Website
 
 ### What i used for this project:
 
