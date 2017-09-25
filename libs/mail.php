@@ -47,7 +47,7 @@ if (isset($_POST["submit"])) {
      }
     if (!$errors) {
        $to = 'habibem@gmail.com';
-       $subject = 'Mail pour le support technique';
+       $subject = 'Internship Webapp: message';
        $headers = 'Mime-Version: 1.0'."\r\n";
        $headers .= 'Content-type: text/html; charset=utf-8'."\r\n";
        $headers .= "\r\n";
