@@ -30,8 +30,9 @@
       <section id="intro" class="main style2 fullscreen">
         <div class="content">
           <header>
-            <p><?php if (isset($message2)) {echo $message2;} ?></p>
+            <p><sub><?php if (isset($message2)) {echo $message2;} ?></sub></p>
             <h2>Hello Base...</h2>
+            <p><?php if (isset($message2)) {echo '...and hello to you <strong>' . $_POST['nom'] . '</strong> !';} ?></p>
           </header>
           <p>I'm Habib, a trainee web developer. I enrolled in a coding course in April 2017 (<a href="http://becode.org" target="_blank">Becode</a>) and I <strong>loved</strong> it so much that I decided to change my career path and dedicated 100% of my time and energy to my new passion...And now i would like to give <strong>BASE</strong> some of that good energy!</p>
           <footer>
