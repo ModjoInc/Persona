@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,900|Roboto:300,700");
+@import url("https://fonts.googleapis.com/css?family=Cutive+Mono:300,900|Roboto+Mono:300,700");
 @import url("font-awesome.min.css");
 /* Reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
@@ -330,7 +330,7 @@ body {
     line-height: 2.025em; } }
 /* Type */
 body, input, textarea, select {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Cutive Mono", "monospace";
   font-weight: 300;
   font-size: 18pt;
   line-height: 1.75em;
@@ -354,8 +354,8 @@ body, input, textarea, select {
       line-height: 1.5em; } }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", "sans-serif";
-  font-weight: 900;
+  font-family: "Roboto Mono", "monospace";
+  font-weight: 300;
   color: #493142;
   letter-spacing: -0.0325em; }
   h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -363,7 +363,7 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none; }
 
 h2 {
-  font-size: 2.25em;
+  font-size: 3.5em;
   line-height: 1.25em;
   letter-spacing: -0.05em; }
 
@@ -382,7 +382,7 @@ a {
   -webkit-transition: color 0.2s ease-in-out;
   -ms-transition: color 0.2s ease-in-out;
   transition: color 0.2s ease-in-out;
-  color: #98c593; }
+  color: #fff; }
 
 sub {
   position: relative;
@@ -435,10 +435,10 @@ button {
   -webkit-transition: background-color 0.2s ease-in-out;
   -ms-transition: background-color 0.2s ease-in-out;
   transition: background-color 0.2s ease-in-out;
-  background-color: #98c593;
+  background-color: #fff;
   border: 0;
   border-radius: 3.5em;
-  color: #ffffff;
+  color: #3d3d3d;
   cursor: pointer;
   display: inline-block;
   height: 3.5em;
@@ -484,13 +484,13 @@ button {
   input[type="reset"]:hover,
   .button:hover,
   button:hover {
-    background-color: #a8cea4; }
+    background-color: white; }
   input[type="button"]:active,
   input[type="submit"]:active,
   input[type="reset"]:active,
   .button:active,
   button:active {
-    background-color: #88bc82; }
+    background-color: #f2f2f2; }
   input[type="button"].style2,
   input[type="submit"].style2,
   input[type="reset"].style2,
@@ -1183,6 +1183,7 @@ table {
 
 /* Header */
 #header {
+  display: none;
   position: fixed;
   z-index: 10000;
   left: 0;
@@ -1201,6 +1202,8 @@ table {
     cursor: default; }
     #header h1 a {
       font-size: 1.25em; }
+  #header .active {
+    background-color: #b0b0b0; }
   #header nav {
     position: absolute;
     right: 0.5em;
@@ -1235,7 +1238,13 @@ table {
         #header h1 a {
           font-size: 1em; }
       #header nav {
-        display: none; } }
+        position: absolute;
+        font-size: 2vw;
+        right: 0.2em;
+        top: 0;
+        height: 1vh;
+        line-height: 1vh;
+        word-break: keep-all; } }
 
 body {
   padding-top: 3em; }
@@ -1396,8 +1405,8 @@ body {
   height: 5em;
   line-height: 5em;
   margin: 0;
-  background: #39454b;
-  color: rgba(185, 186, 187, 0.5);
+  background: #fff;
+  color: #3d3d3d;
   overflow: hidden; }
   #footer a {
     color: inherit; }
@@ -1457,18 +1466,26 @@ body {
 
 /* Intro */
 #intro {
-  background: url("images/overlay1.png"), url("../../images/intro.jpg");
+  background: url("images/overlay.png"), url("../../images/two.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
+  #intro a {
+    text-decoration-style: dotted; }
+  #intro a:hover {
+    color: #b8b8b8; }
+  #intro a:visited {
+    color: #6e6e6e; }
 
 /* One */
 #one {
-  background: url("images/overlay.png"), url("../../images/one.jpg");
+  background: url(""), url("../../images/one.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
+  #one .icon {
+    font-size: 3vw; }
 
 /* Two */
 #two {
@@ -1479,10 +1496,14 @@ body {
 
 /* Three */
 #three {
-  background: url("images/overlay.png"), url("../../images/three.jpg");
+  background: url("images/overlay.png"), url("../../images/two.jpg");
   background-size: 256px 256px, cover;
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
+
+#work a {
+  color: #1c1c1c;
+  text-decoration-style: dotted; }
 
 /* Contact */
 #contact {

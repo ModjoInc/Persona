@@ -2,108 +2,126 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,900|Roboto:300,700');
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono:300,900|Roboto+Mono:300,700');
 @import url('font-awesome.min.css');
 
 
-	@import "libs/skel";
+  @import "libs/skel";
 
-	@include skel-breakpoints((
-		xxlarge: '(max-width: 1920px)',
-		xlarge: '(max-width: 1680px)',
-		large: '(max-width: 1280px)',
-		medium: '(max-width: 1000px)',
-		small: '(max-width: 736px)',
-		xsmall: '(max-width: 480px)',
-	));
+  @include skel-breakpoints((
+    xxlarge: '(max-width: 1920px)',
+    xlarge: '(max-width: 1680px)',
+    large: '(max-width: 1280px)',
+    medium: '(max-width: 1000px)',
+    small: '(max-width: 736px)',
+    xsmall: '(max-width: 480px)',
+  ));
 
-	@include skel-layout((
-		reset: 'full',
-		boxModel: 'border'
-	));
+  @include skel-layout((
+    reset: 'full',
+    boxModel: 'border'
+  ));
 
 // Base.
 
-	@import 'base/page';
-	@import 'base/typography';
+  @import 'base/page';
+  @import 'base/typography';
 
 // Component.
 
-	@import 'components/box';
-	@import 'components/button';
-	@import 'components/form';
-	@import 'components/icon';
-	@import 'components/image';
-	@import 'components/list';
-	@import 'components/section';
-	@import 'components/table';
-	@import 'components/poptrox-popup';
-	@import 'components/gallery';
+  @import 'components/box';
+  @import 'components/button';
+  @import 'components/form';
+  @import 'components/icon';
+  @import 'components/image';
+  @import 'components/list';
+  @import 'components/section';
+  @import 'components/table';
+  @import 'components/poptrox-popup';
+  @import 'components/gallery';
 
 // Layout.
 
-	@import 'layout/header';
-	@import 'layout/main';
-	@import 'layout/footer';
+  @import 'layout/header';
+  @import 'layout/main';
+  @import 'layout/footer';
 
 /* Intro */
 
-	#intro {
-		background: url('images/overlay1.png'), url('../../images/intro.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, bottom center;
-		background-repeat: repeat, no-repeat;
-	}
+  #intro {
+    background: url('images/overlay.png'), url('../../images/two.jpg');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, bottom center;
+    background-repeat: repeat, no-repeat;
+    a {
+      text-decoration-style: dotted;
+    }
+    a:hover {
+      color: #b8b8b8;
+    }
+    a:visited {
+      color: #6e6e6e;
+    }
+  }
 
 /* One */
 
-	#one {
-		background: url('images/overlay.png'), url('../../images/one.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
+  #one {
+    background: url(''), url('../../images/one.jpg');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+    .icon {
+      font-size: 3vw;
+    }
+  }
 
 /* Two */
 
-	#two {
-		background: url('images/overlay.png'), url('../../images/two.jpg');
-		background-size: 256px 256px, cover;
-		background-attachment: fixed, fixed;
-		background-position: top left, center center;
-	}
-
-/* Three */
-
-  #three {
-    background: url('images/overlay.png'), url('../../images/three.jpg');
+  #two {
+    background: url('images/overlay.png'), url('../../images/two.jpg');
     background-size: 256px 256px, cover;
     background-attachment: fixed, fixed;
     background-position: top left, center center;
   }
 
+/* Three */
+
+  #three {
+    background: url('images/overlay.png'), url('../../images/two.jpg');
+    background-size: 256px 256px, cover;
+    background-attachment: fixed, fixed;
+    background-position: top left, center center;
+  }
+  #work {
+    a {
+      color: #1c1c1c;
+      text-decoration-style: dotted;
+
+    }
+  }
 /* Contact */
 
-	#contact {
-		overflow: hidden;
-		padding-bottom: 0;
+  #contact {
+    overflow: hidden;
+    padding-bottom: 0;
 
-		.box {
-			@include vendor('transition', 'transform #{_duration(fade-in)} ease');
-			@include vendor('transform', 'translateY(0)');
-			position: relative;
-		}
+    .box {
+      @include vendor('transition', 'transform #{_duration(fade-in)} ease');
+      @include vendor('transform', 'translateY(0)');
+      position: relative;
+    }
 
-		&.inactive {
-			.box {
-				@include vendor('transform', 'translateY(100%)');
-			}
-		}
+    &.inactive {
+      .box {
+        @include vendor('transform', 'translateY(100%)');
+      }
+    }
 
-		@include breakpoint(small) {
-			.box {
-				padding-bottom: 2em;
-			}
-		}
-	}
+    @include breakpoint(small) {
+      .box {
+        padding-bottom: 2em;
+      }
+    }
+  }
