@@ -81,26 +81,39 @@
           <p>And voilà!</p>
         </div>
         <!-- <a href="#work">Next</a> -->
+        <hr>
       </section>
+
 
     <!-- Work -->
       <section id="work" class="main style3 primary">
         <div class="content">
+          <p>&nbsp;</p>
           <header>
             <h2>My Work</h2>
             <p>Now let me show you some of the side projects I developed in Becode and before that.</p>
             <p></p>
           </header>
           <div class="content">
-            <img src="./images/thumbs/01.jpg" alt="projet1">
-            <p><a href="http://practicebulgarian.com/becode/interview/">Prototype</a></p>
-            <p>Création d'une webapp selon un modèle MVC et POO, built from scratch.</p>
+            <h4><a href="http://practicebulgarian.com/becode/interview/">
+              <i class="fa fa-eye" aria-hidden="true"></i> Interview of a Web Developer</a></h4>
+            <p>WebApp creation based on the <strong>MVC et OOP</strong>, built from scratch.</p>
+            <img class="image fit" src="./images/fulls/01.jpg" alt="projet1">
+
           </div>
           <hr>
           <div class="content">
-            <img src="./images/thumbs/02.jpg" alt="projet2">
-            <p><a href="http://practicebulgarian.com/becode/Degroof&Petercam/">Projet Degroof&Petercam Foundation</a></p>
-            <p>Site créé lors d'un hackaton de 4 heures par une équipe de 4 étudiants Becode pour la fondation D&P.</p>
+            <p>&nbsp;</p>
+            <h4><a href="http://practicebulgarian.com/becode/Degroof&Petercam/">
+            <i class="fa fa-eye" aria-hidden="true"></i> Projet Degroof&Petercam Foundation</a></h4>
+          <p>WepApp created in 4 hours during a <strong>hackaton</strong> sponsored by the Degroof&Petercam Foundation.</p>
+            <img class="image fit" src="./images/fulls/02.jpg" alt="projet2">
+            <hr>
+          </div>
+
+          <div class="content">
+            <p>More here : <a href="http://habibemg.work" target="_blank"> My side projects @ Becode </a></p>
+
           </div>
           <div class="content">
             <img>

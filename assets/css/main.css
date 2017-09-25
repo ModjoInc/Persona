@@ -1239,11 +1239,11 @@ table {
           font-size: 1em; }
       #header nav {
         position: absolute;
-        font-size: 2vw;
+        font-size: 2.5vw;
         right: 0.2em;
         top: 0;
-        height: 1vh;
-        line-height: 1vh;
+        height: 1.5vh;
+        line-height: 1.2vh;
         word-break: keep-all; } }
 
 body {
@@ -1472,7 +1472,8 @@ body {
   background-position: top left, bottom center;
   background-repeat: repeat, no-repeat; }
   #intro a {
-    text-decoration-style: dotted; }
+    text-decoration-style: dotted;
+    color: #343434; }
   #intro a:hover {
     color: #b8b8b8; }
   #intro a:visited {
