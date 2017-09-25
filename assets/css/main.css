@@ -1504,6 +1504,13 @@ body {
 #work a {
   color: #1c1c1c;
   text-decoration-style: dotted; }
+#work img, #work svg {
+  display: inline-block;
+  vertical-align: middle; }
+#work svg {
+  height: 50px;
+  width: 50px;
+  display: inline-block; }
 
 /* Contact */
 #contact {
