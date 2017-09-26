@@ -653,7 +653,7 @@ textarea {
     margin: 0 0 2em 0; }
   .image.fit {
     display: block;
-    width: 100%; }
+    width: 40%; }
   .image.left {
     float: left;
     margin: 0 2em 2em 0; }
@@ -1502,7 +1502,10 @@ body {
   background-attachment: fixed, fixed;
   background-position: top left, center center; }
 
-#work a {
+#work .content a {
+  color: #1c1c1c;
+  text-decoration-style: dotted; }
+#work .content a:visited {
   color: #1c1c1c;
   text-decoration-style: dotted; }
 #work img, #work svg {
@@ -1535,5 +1538,20 @@ body {
   @media screen and (max-width: 736px) {
     #contact .box {
       padding-bottom: 2em; } }
+
+.portfolio1 {
+  background-color: #4C5C97; }
+
+.portfolio2 {
+  background-color: #976e4c; }
+
+.portfolio1 img, .portfolio2 img {
+  -webkit-filter: opacity(30%);
+  /* Safari 6.0 - 9.0 */
+  filter: opacity(30%); }
+.portfolio1 img:hover, .portfolio2 img:hover {
+  -webkit-filter: none;
+  /* Safari 6.0 - 9.0 */
+  filter: none; }
 
 /*# sourceMappingURL=main.css.map */

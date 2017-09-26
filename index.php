@@ -98,8 +98,9 @@
             <h4><a href="http://practicebulgarian.com/becode/interview/">
               <i class="fa fa-eye" aria-hidden="true"></i> Interview of a Web Developer</a></h4>
             <p>WebApp creation based on the <strong>MVC et OOP</strong>, built from scratch.</p>
-            <img class="image fit" src="./images/fulls/01.jpg" alt="projet1">
-
+            <div class="portfolio1">
+              <a href="http://practicebulgarian.com/becode/interview/"><img class="image fit" src="./images/fulls/01.jpg" alt="projet1"></a>
+            </div>
           </div>
           <hr>
           <div class="content">
@@ -107,7 +108,10 @@
             <h4><a href="http://practicebulgarian.com/becode/Degroof&Petercam/">
             <i class="fa fa-eye" aria-hidden="true"></i> Projet Degroof&Petercam Foundation</a></h4>
           <p>WepApp created in 4 hours during a <strong>hackaton</strong> sponsored by the Degroof&Petercam Foundation.</p>
-            <img class="image fit" src="./images/fulls/02.jpg" alt="projet2">
+          <div class="portfolio2">
+            <a href="http://practicebulgarian.com/becode/Degroof&Petercam/"><img class="image fit" src="./images/fulls/02.jpg" alt="projet2"></a>
+          </div>
+
             <hr>
           </div>
 
