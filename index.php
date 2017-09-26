@@ -71,7 +71,7 @@
         <!-- <a href="#three">Next</a> -->
       </section>
 
-      <section id="three" class="main style2 right dark fullscreen">
+      <section id="three" class="main style2 left dark fullscreen">
         <div class="content box style2">
           <header>
             <h2>Why Base?</h2>
